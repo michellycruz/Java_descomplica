@@ -15,10 +15,10 @@ class Main {
     Iterator<Integer> it = numeros.iterator();
 
     int numero = it.next();
-    System.out.println("Elemento: " + numero);
+    System.out.println("Elemento: " + numero); //vai mostrar o primeiro número do ArrayList
 
     while(it.hasNext()){
       it.forEachRemaining((value) -> System.out.print(value + ", "));
-    }
+    } // vai mostrar separando por virgula, os números que sobraram e não foram mostrados
   }
 }
