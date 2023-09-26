@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+:root{
+    --amarelo: #FFBB00;
+    --azul:#116369;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar{
+    max-width: 100vw;
+    height: 70px;
+    background-color: var(--amarelo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone{
+    max-width: 50px;
+    margin: 10px;
+}
+
+.btn{
+    background-color: transparent;
+    margin: 10px;
+    border: 2px solid var(--amarelo);
+    cursor: pointer;
+    padding: 10px;
+    color: var(--azul);
+}
+
+.btn:hover{
+    border-bottom: 2px solid var(--azul);
+    transition: 0.6s;
+}
+
+.iconBtn{
+    max-width: 20px;
+}
