@@ -8,31 +8,23 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body onresize="mobile()">
-    <div class="navBar">
-        <img class="icone" src="imagens/image.png" alt="icone praia e montanha">
-        <div id="botoes">
-            <button class="btn"><strong>Home</strong></button>
-            <button class="btn"><strong>Pacotes</strong></button>
-            <button class="btn"><strong>Serviços</strong></button>
-            <button class="btn"><strong>Contato</strong></button>
-            <button class="btn"><img class="iconBtn" src="imagens/carrinho.png" alt="carrinho"></button>
-            <button class="btn"><img class="iconBtn" src="imagens/usuario.png" alt="usuário"></button>
-        </div>
-       <!-- <div id="menuHamburguer">
+    <header>
+        <div class="navBar">
+            <img class="icone" src="imagens/image.png" alt="icone praia e montanha">
             <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-                <div class="itens">
+            <div id="botoes">
                     <button class="btn"><strong>Home</strong></button>
                     <button class="btn"><strong>Pacotes</strong></button>
                     <button class="btn"><strong>Serviços</strong></button>
                     <button class="btn"><strong>Contato</strong></button>
                     <button class="btn"><img class="iconBtn" src="imagens/carrinho.png" alt="carrinho"></button>
                     <button class="btn"><img class="iconBtn" src="imagens/usuario.png" alt="usuário"></button>
-                </div>
-        </div>-->
-    </div>
-    <div class="container">
-        <h1>O Brasil dos seus sonhos</h1>
-    </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>O Brasil dos seus sonhos</h1>
+        </div>
+    </header>
     <div class="container2">
         <div class="titulos">
             <h4 class="titulo">Como funcionam</h4>
@@ -47,16 +39,18 @@
     </div>
     <script>
         function mobile(){
-            if(window.innerWidth >= 650){
-                botoes.style.display = 'block'
-                menuHamburguer.style.display= 'none'
-            } else {
+            if(window.innerWidth >= 768){
+               botoes.style.display = 'block'
+           } else {
                 botoes.style.display = 'none'
-                menuHamburguer.style.display= 'block'
             }
         }
         function clickMenu(){
-
+            if(botoes.style.display == 'block'){
+                botoes.style.display = 'none'
+            } else{
+                botoes.style.display = 'block'
+            }
         }
     </script>
 </body>
