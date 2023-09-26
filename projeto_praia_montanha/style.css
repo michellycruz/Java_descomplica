@@ -3,6 +3,7 @@
 @import url(estilos/lugares.css);
 @import url(estilos/viagens.css);
 @import url(estilos/sonhos.css);
+@import url(mq/tablet.css);
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 :root{
@@ -35,12 +36,26 @@ h1{
 }
 
 .container2{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
+    display: grid;
     justify-content: center;
+    text-align: center;
+    gap: 5px;
+    flex: 1 0 auto;
+    grid-template-columns: 1, 1fr;
+    grid-auto-rows: minmax(100px,auto);
     color: var(--azul);
+    grid-template-areas: 
+    "titulos"
+    "itensText";
+}
+
+.titulos{
+    grid-area: titulos;
+    padding-top: 34px;
+}
+.itensText{
+    grid-area: itensText;
+    height: 180px;
 }
 
 .text{
@@ -85,7 +100,8 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 
 .botoesFooter{
     display: flex;

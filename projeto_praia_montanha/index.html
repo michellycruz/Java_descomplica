@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praia e montanha</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq/tablet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body onresize="mobile()">
@@ -34,39 +35,45 @@
             <div class="text">
                 <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
             </div>
-            <button class="knowInformation">Quero conhecer</button>
+            <button class="knowInformation info1">Quero conhecer</button>
         </div>
     </div>
     <div class="lugares">
-        <div class="cardPaisagem">
+        <div class="cardPaisagem card1">
             <img class="gramadoTitulo" src="imagens/gramadoTitulo.png" alt="">
             <p class="pLugares">Viaje com conforto e segurança sem se preocupar com nada, apenas se divertir com sua família. O Voo é incluído, hotel escolhido, passeios personalizados no seu horário e preferência.</p>
             <img class="paisagemLugar" src="imagens/gramado.png" alt="paisagem gramado">
         </div>
-        <div class="cardPaisagem">
+        <div class="cardPaisagem card2">
             <img class="portoTitulo" src="imagens/portoseguroTitulo.png" alt="">
             <p class="pLugares">O Voo é incluído, hotel escolhido, passeios personalizados no seu horário e preferência.</p>
             <img class="paisagemLugar" src="imagens/portoseguro.png" alt="paisagem porto seguro">
         </div>
-        <div class="cardPaisagem">
+        <div class="cardPaisagem card3">
             <img class="rioTitulo" src="imagens/riodejaneiroTitulo.png" alt="">
             <p class="pLugares">Viaje com conforto e segurança sem se preocupar com nada, apenas se divertir com sua família. </p>
             <img class="paisagemLugar" src="imagens/riodejaneiro.png" alt="paisagem rio">
         </div>
     </div>
     <div class="viagens">
-        <h2 class="h2Viagens">Conheça viagens de nossos clientes</h2>
-        <p class="pViagens">Veja a felicidade real de quem viajou com a gente</p>
+        <div>
+            <h2 class="h2Viagens">Conheça viagens de nossos clientes</h2>
+            <p class="pViagens">Veja a felicidade real de quem viajou com a gente</p>
+            <button class="knowInformation">Vamos começar</button>
+        </div>
         <img class="criancas" src="imagens/criancasPiscina.png" alt="Crianças brincando na piscina">
-        <button class="knowInformation">Vamos começar</button>
     </div>
     <div class="sonhos">
         <img class="imagemMontanhas" src="imagens/montanhas.png" alt=" paisagem de montanhas e caichoeira">
-        <h4 class="h4Sonhos">Nossa missão</h4>
-        <h2 class="h2Sonhos">As viagens dos seus sonhos que cabem no seu bolso</h2>
-        <p class="pSonhos">Viaje com conforto e segurança sem se preocupar com nada, apenas se divertir com sua família. O Voo é incluído, hotel escolhido, passeios personalizados no seu horário e preferência.</p>
         <div>
-            <button class="knowInformation">Fazer orçamento</button>
+            <div class="text1">
+                <h4 class="h4Sonhos">Nossa missão</h4>
+                <h2 class="h2Sonhos">As viagens dos seus sonhos que cabem no seu bolso</h2>
+                <p class="pSonhos">Viaje com conforto e segurança sem se preocupar com nada, apenas se divertir com sua família. O Voo é incluído, hotel escolhido, passeios personalizados no seu horário e preferência.</p>
+            </div>
+            <div>
+                <button class="knowInformation">Fazer orçamento</button>
+            </div>
         </div>
     </div>
     <footer class="footer">
@@ -85,7 +92,7 @@
         botoes.style.display = 'none';
     
         function mobile(){
-            if(window.innerWidth >= 700){
+            if(window.innerWidth >= 869){
                botoes.style.display = 'block';
                burguer.style.display = 'none';
            } else {
