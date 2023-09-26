@@ -26,7 +26,7 @@
 .btn{
     background-color: transparent;
     margin: 10px;
-    border: 2px solid var(--amarelo);
+    border: 2px solid transparent;
     cursor: pointer;
     padding: 5px;
     color: var(--azul);
