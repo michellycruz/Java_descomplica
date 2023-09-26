@@ -8,6 +8,15 @@
     --azul:#116369;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+html{
+    width: 0px;
+    height: 0px;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -55,6 +64,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 button{
     margin: 20px;

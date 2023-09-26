@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 .sonhos{
-    margin-top: 100px;
-    margin-bottom: 90px;
+    margin-top: 140px;
+    margin-bottom: 100px;
     padding: 20px;
     height: 350px;
     display:flex;
@@ -10,10 +10,11 @@
     justify-content: center;
     align-items: center;
     color: var(--azul);
+    text-align: justify;
 }
 
 .imagemMontanhas{
-    width: 200px;
+    max-width: 200px;
     border-radius: 50%;
 }
 
