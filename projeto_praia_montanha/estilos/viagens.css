@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.viagens{
+    background-color: var(--amarelo);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2Viagens{
+    padding: 10px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.469);
+}
+
+.pViagens{
+    padding: 10px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.469);
+}
+
+.criancas{
+    max-width: 270px;
+    padding: 10px;
+}

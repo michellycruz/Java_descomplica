@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.sonhos{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    padding: 20px;
+    height: 350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--azul);
+}
+
+.imagemMontanhas{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.h4Sonhos{
+    padding: 10px;
+}
+.h2Sonhos{
+    padding: 10px;
+}
+.pSonhos{
+    padding: 10px;
+}
