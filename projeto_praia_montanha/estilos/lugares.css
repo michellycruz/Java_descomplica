@@ -23,7 +23,7 @@
     padding: 10px;
 }
 .cardPaisagem{
-    max-width: 300px;
+    max-width: 350px;
     height: 650px;
     display: flex;
     flex-direction: column;
