@@ -24,7 +24,7 @@
 }
 .cardPaisagem{
     max-width: 300px;
-    height: auto;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
