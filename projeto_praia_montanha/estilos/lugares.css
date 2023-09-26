@@ -1,38 +1,27 @@
 @charset "utf-8";
 
 .gramadoTitulo{
-    background-image: url(../imagens/gramadoTitulo.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 230px;
-    height: 170px;
+    max-width: 200px;
+    height: auto;
 }
 .portoTitulo{
-    background-image: url(../imagens/portoseguroTitulo.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 230px;
-    height: 170px;
+    max-width: 250px;
+    height: auto;
 }
 .rioTitulo{
-    background-image: url(../imagens/riodejaneiroTitulo.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 230px;
-    height: 170px;
+    max-width: 220px;
+    height: auto;
 }
 .lugares{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 .cardPaisagem{
-    padding: 30px;
-    max-width: 250px;
+    max-width: 280px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,5 +30,6 @@
 }
 .paisagemLugar{
     padding: 20px;
-    max-width: 200px;
+    max-width: 250px;
+    height: auto;
 }
