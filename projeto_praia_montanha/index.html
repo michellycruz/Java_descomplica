@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praia e montanha</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="mobile()">
     <div class="navBar">
         <img class="icone" src="imagens/image.png" alt="icone praia e montanha">
-        <div class="botoes">
+        <div id="botoes">
             <button class="btn"><strong>Home</strong></button>
             <button class="btn"><strong>Pacotes</strong></button>
             <button class="btn"><strong>Serviços</strong></button>
@@ -17,6 +18,46 @@
             <button class="btn"><img class="iconBtn" src="imagens/carrinho.png" alt="carrinho"></button>
             <button class="btn"><img class="iconBtn" src="imagens/usuario.png" alt="usuário"></button>
         </div>
+       <!-- <div id="menuHamburguer">
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+                <div class="itens">
+                    <button class="btn"><strong>Home</strong></button>
+                    <button class="btn"><strong>Pacotes</strong></button>
+                    <button class="btn"><strong>Serviços</strong></button>
+                    <button class="btn"><strong>Contato</strong></button>
+                    <button class="btn"><img class="iconBtn" src="imagens/carrinho.png" alt="carrinho"></button>
+                    <button class="btn"><img class="iconBtn" src="imagens/usuario.png" alt="usuário"></button>
+                </div>
+        </div>-->
     </div>
+    <div class="container">
+        <h1>O Brasil dos seus sonhos</h1>
+    </div>
+    <div class="container2">
+        <div class="titulos">
+            <h4 class="titulo">Como funcionam</h4>
+            <h2 class="titulo">Nossos Pacotes</h2>
+        </div>
+        <div class="itensText">
+            <div class="text">
+                <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+            </div>
+            <button class="knowInformation">Quero conhecer</button>
+        </div>
+    </div>
+    <script>
+        function mobile(){
+            if(window.innerWidth >= 650){
+                botoes.style.display = 'block'
+                menuHamburguer.style.display= 'none'
+            } else {
+                botoes.style.display = 'none'
+                menuHamburguer.style.display= 'block'
+            }
+        }
+        function clickMenu(){
+
+        }
+    </script>
 </body>
 </html>
