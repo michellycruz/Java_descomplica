@@ -4,7 +4,7 @@
 @import url(estilos/viagens.css);
 @import url(estilos/sonhos.css);
 @import url(mq/desktop.css);
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 
 :root{
     --amarelo: #FFBB00;
@@ -29,10 +29,10 @@
 }
 
 h1{
-    font-size: 40px;
+    font-size: 90px;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.711);
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
 }
 
 .container2{
