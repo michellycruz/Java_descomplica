@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url(estilos/navbar.css);
+@import url(estilos/lugares.css);
 :root{
     --amarelo: #FFBB00;
     --azul:#116369;
