@@ -1,17 +1,19 @@
+import java.util.Scanner;
 
-public class ExercicioOP {
+public class Principal {
 
 	public static void main(String[] args) {
 		
-		double nota1 = 9.0;
-		double nota2 = 10;
+		int valor;
 		
-		double media;
+		Scanner teclado = new Scanner(System.in);
 		
+		System.out.println("Digite um valor");
+		valor = teclado.nextInt();
 		
-		media = (nota1 + nota2) /2;
-		
-		System.out.println(media);
+		System.out.println(valor/2);
+		System.out.println(valor%2);
+
 	}
 
 }
