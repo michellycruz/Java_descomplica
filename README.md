@@ -1,6 +1,4 @@
 # Java_descomplica
-Disciplina de Java da descomplica
-
 </h1>Projetos</h1>
 
 <ul>
