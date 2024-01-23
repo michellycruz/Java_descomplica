@@ -16,15 +16,15 @@ public class Principal {
 			 opcao = teclado.nextInt();
 			 
 			 switch(opcao) {
-			 case 1:
-				 System.out.println("Você digitou a opção " + opcao);
-				 break;
-			 case 2:
-				 System.out.println("Você digitou a opção " + opcao);
-				 break;
-			 default:
-				 throw new Excecao("Erro");
-			 }
+				 case 1:
+					 System.out.println("Você digitou a opção " + opcao);
+					 break;
+				 case 2:
+					 System.out.println("Você digitou a opção " + opcao);
+					 break;
+				 default:
+					 throw new Excecao("Erro");
+				 }
 			
 		}
 		 catch(Excecao excecao) {
@@ -34,7 +34,7 @@ public class Principal {
 			 System.out.println("-------------------");
 		 }
 		 
+		 
 		} while(true);
 	}
-
 }
